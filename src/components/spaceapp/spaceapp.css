@@ -34,7 +34,6 @@
     position: relative;
     height: 50rem;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -81,7 +80,7 @@ width: 6rem;
     width: 20rem;
     height:23rem;
     position: absolute;
-    bottom: 4rem;
+    bottom: 5rem;
     right: 8rem;
     
 }
