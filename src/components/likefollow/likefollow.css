@@ -1,0 +1,9 @@
+.likefollow{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(147.86deg, #031018 -7.77%, rgba(5, 50, 77, 0.84) 80.01%);
+}

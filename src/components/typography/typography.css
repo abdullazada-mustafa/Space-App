@@ -1,0 +1,152 @@
+.typography{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(147.86deg, #031018 -7.77%, rgba(5, 50, 77, 0.84) 80.01%);
+}
+.typography__icon{
+    padding: 4rem 0 0 5rem;
+    width: 9rem;
+    height:8rem;
+    
+}
+.typography__header{
+    display: flex;
+    gap: 40rem
+}
+.fonts__colors{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5rem;
+
+}
+.fonts{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 30rem;
+    padding-top: 2rem;
+}
+.typography__header p {
+    color: #fff;
+    margin: 0;
+    display: flex;
+    padding: 1rem 0 0 5rem;
+    font-size: 34px;
+}
+.fonts-subdiv td {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 55px;
+}
+.fonts-subdiv{
+    display: flex;
+    width: 35rem;
+    gap: 2rem;
+}
+.colors{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 32rem;
+}
+
+.colors__primary{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.colors__primary-tiber{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 4rem;
+    top: 4rem;    
+}
+.colors__primary-anakiwa{
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    bottom: 7rem;
+    left: 15rem;
+}
+.colors__primary-dodgerblue{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 10rem;
+    left: 16rem;
+}
+.colors__primary-primary,
+.colors__secondary-secondary{
+    position: absolute;
+    left: 5.4rem;
+    top: 1rem;
+    font-size: 20px;
+    color: #fff;
+}
+.colors__primary-tiber-code{
+    position: absolute;
+    top: 8rem;
+    left: 7rem;
+    z-index: 1;
+    color: #fff;
+}
+.colors__primary-anakiwa-code{
+    position: absolute;
+    top: 3.5rem;
+    right: 1.2rem;
+    z-index: 1;
+    font-weight: 700;
+}
+.colors__primary-dodgerblue-code{
+    position: absolute;
+    bottom: 2rem;
+    right: 1.3rem;
+    z-index: 1;
+    font-weight: 700;
+}
+
+
+.colors__secondary{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.colors__secondary-hotcinnamon{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 4rem;
+    bottom:2rem;
+}
+.colors__secondary-atomictangerine{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 16rem;
+}
+
+.colors__secondary-hotcinnamon-code{
+    position: absolute;
+    left: 6.7rem;
+    bottom: 6.5rem;
+    z-index: 1;
+    font-weight: 700;
+}
+.colors__secondary-atomictangerine-code{
+    position: absolute;
+    bottom: 4rem;
+    right: 1.2rem;
+    z-index: 1;
+    font-weight: 700;
+}
