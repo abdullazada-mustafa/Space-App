@@ -1,9 +1,82 @@
-.likefollow{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: linear-gradient(147.86deg, #031018 -7.77%, rgba(5, 50, 77, 0.84) 80.01%);
+.likefollow {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(
+    147.86deg,
+    #031018 -7.77%,
+    rgba(5, 50, 77, 0.84) 80.01%
+  );
+  position: relative;
+}
+.likefollow__logo {
+  width: 3rem;
+  height: 4rem;
+  position: absolute;
+  left: 6rem;
+  top: 5rem;
+}
+.likefollow__div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 40%;
+  width: 50%;
+  position: absolute;
+  top: 11rem;
+  left: 6rem;
+}
+.likefollow__div span {
+  font-size: 50px;
+  width: 50%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+.likefollow__div-subdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 30%;
+}
+span {
+  color: #fff;
+}
+.likefollow__footer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 5rem;
+  left: 6rem;
+}
+.likefollow__footer-contact {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  border-left: 7px solid #fb896b;
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+.likefollow__footer-contact a {
+  color: #fff;
+  width: 17rem;
+}
+.likefollow__footer-socialmedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+.likefollow__footer-socialmedia a {
+  color: #fff;
+}
+.likefollow__footer-contact a:hover,
+.likefollow__footer-socialmedia a:hover {
+  opacity: 0.6;
+  transition: all 0.5s ease-in-out;
 }

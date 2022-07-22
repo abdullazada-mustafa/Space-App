@@ -14,7 +14,6 @@ const Fonts = ({ font, size, type }) => (
    </>
 )
 const Typography = ()=>{
-   
    return(
     <div className="typography">
         <img src={Icon} className="typography__icon"/>

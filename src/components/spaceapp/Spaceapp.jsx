@@ -1,11 +1,11 @@
 import React from "react";
 import { Airplane, City, Direction, Earth, Entry, Line, Mars, Moon, Photo1, Photo2, Planetbackground, Rectangle, Rocket, Sea, Venus } from "../../assets";
-import './spaceapp.css'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
+import './spaceapp.css'
+
 
 
 const Spaceapp = ()=>{
-
 
     return(
         <div className="spaceApp">
