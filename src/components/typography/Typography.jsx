@@ -16,7 +16,7 @@ const Fonts = ({ font, size, type }) => (
 const Typography = ()=>{
    return(
     <div className="typography">
-        <img src={Icon} className="typography__icon"/>
+        <img src={Icon} alt="icon" className="typography__icon"/>
         <div className="typography__header">
             <p>Fonts</p>
             <p>Colors</p>
@@ -35,16 +35,16 @@ const Typography = ()=>{
                   <span className="colors__primary-tiber-code">#092536</span>
                   <span className="colors__primary-anakiwa-code">#9CDBFF</span>
                   <span className="colors__primary-dodgerblue-code">#3BB7FF</span>
-                  <img src={Tiber} className="colors__primary-tiber"/>
-                  <img src={Anakiwa} className="colors__primary-anakiwa"/>
-                  <img src={Dodgerblue} className="colors__primary-dodgerblue"/>
+                  <img src={Tiber} alt="tiber" className="colors__primary-tiber"/>
+                  <img src={Anakiwa} alt="anakiwa" className="colors__primary-anakiwa"/>
+                  <img src={Dodgerblue} alt="dodgerblue" className="colors__primary-dodgerblue"/>
                </div>
                <div className="colors__secondary">
                   <span className="colors__secondary-secondary">Secondary</span>
                   <span className="colors__secondary-hotcinnamon-code">#DC6B1B</span>
                   <span className="colors__secondary-atomictangerine-code">#FF9D58</span>
-                  <img src={Hotcinnamon} className="colors__secondary-hotcinnamon"/>
-                  <img src={Atomictangerine} className="colors__secondary-atomictangerine"/>
+                  <img src={Hotcinnamon} alt="hotcinnamon" className="colors__secondary-hotcinnamon"/>
+                  <img src={Atomictangerine} alt="atomictangerine" className="colors__secondary-atomictangerine"/>
                </div>
             </div>
          </div>
